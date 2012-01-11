@@ -1,7 +1,4 @@
-This is a republished version of Qhull 2011.2 by C. Bradford Barber and Hannu Huhdanpaa. Changed are the 
-compiler optimization flags from -O2 to -O3, which results in some speed-up when computing convex-hulls with many
-input points. Also, in this version qh_QHpointer 1 in /qhull-qhull/src/libqhull/user.h was defined. 
-This is necessary to use the C++ interface. For the original code and further information see below.
+This is a republished version of Qhull 2011.2 by C. Bradford Barber and Hannu Huhdanpaa. Changed are the compiler optimization flags from -O2 to -O3, which results in some speed-up when computing convex-hulls with many input points. Also, in this version qh_QHpointer 1 in /qhull-qhull/src/libqhull/user.h was defined. This is necessary to use the C++ interface. For the original code and further information see below.
 
 Robert Krug 2012/01/11
 
