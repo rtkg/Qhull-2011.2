@@ -84,7 +84,7 @@ CC        = gcc
 CC_OPTS1  = -O3 -fPIC -ansi -fno-strict-aliasing -Isrc/libqhull $(CC_WARNINGS)
 CXX       = g++
 # libqhullcpp must be before libqhull
-CXX_OPTS1 = -O3 -Dqh_QHpointer -Isrc/ -Isrc/libqhullcpp -Isrc/libqhull $(CXX_WARNINGS)
+CXX_OPTS1 = -O3 -Dqh_QHpointer -fPIC -Isrc/ -Isrc/libqhullcpp -Isrc/libqhull $(CXX_WARNINGS)
 
 # for shared library link
 CC_OPTS3  =
