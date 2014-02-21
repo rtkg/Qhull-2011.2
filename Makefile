@@ -93,6 +93,7 @@ qhull_VERSION_MAJOR=6
 SO  = so.6.2.0
 
 # On MinGW, 
+
 #   make SO=dll
 #   Copy lib/libqhull6.dll to bin/
 
